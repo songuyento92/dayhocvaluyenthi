@@ -189,9 +189,11 @@ html {
   }
   
   .section-one .inner-wrap .inner-box h1 {
-    margin-left: 5.5%;
+    margin-right: 7.5%;
     text-transform: uppercase;
     padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
   }
   
   .section-one .inner-wrap .inner-box p {
@@ -202,6 +204,7 @@ html {
     font-size: 24px;
     font-weight: 500;
     line-height: 1.6;
+    margin-right: 30px;
   }
   
   .section-one .inner-wrap .box-left .slogan-1 {
@@ -395,6 +398,7 @@ html {
   .section-three .inner-wrap .inner-content {
     padding-top: 30px;
     width: 53%;
+    text-align: center;
   }
   
   .section-three .inner-wrap .inner-content .inner-sub-title {
@@ -418,7 +422,6 @@ html {
   .section-three .inner-wrap .inner-content .inner-title {
     font-size: 22px;
     padding: 12px 0;
-    padding-left: 12px;
     margin-top: 0;
     margin-bottom: 18px;
     background-color: var(--color-two);
@@ -501,9 +504,9 @@ html {
   }
   
   .section-four .container .inner-wrap .inner-title p {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 0px;
     margin: 0;
     margin-top: 23px;
   }
@@ -533,15 +536,20 @@ html {
     letter-spacing: 0.6px;
     text-transform: uppercase;
     color: black;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 20px;
-    padding: 10px 26px;
+    padding: 9px 18px;
   }
   
-  .section-four .container .inner-wrap .inner-desc a:hover {
+  .section-four .container .inner-wrap .inner-desc-2 a:hover {
     background-color: var(--color-one);
     color: var(--color-two);
+  }
+
+  .section-four .container .inner-wrap .show-description {
+    margin-top: 8px;
+    margin-bottom: 0;
   }
   
   /* End Section Four */
@@ -875,14 +883,11 @@ html {
   }
   
   .button a {
-    margin-top: 10px;
+    display: inline-block;
     margin-top: 10px;
     font-size: 22px;
     font-weight: 500;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 20px;
+    padding: 9px 20px;
     background: var(--color-one);
     color: var(--color-two);
     border: 0;
@@ -2640,10 +2645,38 @@ html {
       margin-left: 0;
     }
   }
+
+  @media (max-width: 1489px) {
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 17.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1695px) {
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 20.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
   
   @media (max-width: 1189px) {
     .section-one .inner-wrap .box .box-left {
       background-color: var(--color-two);
+    }
+
+    .section-one .inner-wrap .inner-box h1 {
+      margin-right: 20.5%;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      font-size: 16px;
+      text-align: center;
     }
   }
   
@@ -2833,6 +2866,10 @@ html {
     z-index: 1;
   }
 
+  .section-one .inner-wrap .inner-box h1 {
+    font-size: 14px;
+  }
+
   .section-one .inner-wrap .inner-box p {
     text-align: center;
     width: 86%;
@@ -2842,6 +2879,7 @@ html {
     padding: 5px;
     border-radius: 0%;
     border-radius: 10px;
+    margin-bottom: 40px;
   }
 
   .section-two .inner-des {
@@ -2889,6 +2927,10 @@ html {
     margin: 20px 8px;
   }
 
+  .section-four .container .inner-wrap .inner-title p {
+    margin-top: 10px;
+  }
+
   .section-four .container {
     padding: 80px 0;
   }
@@ -2896,7 +2938,7 @@ html {
   .section-four .container .inner-wrap .inner-title p {
     font-size: 22px;
     font-weight: 600;
-    padding-top: 42px;
+    padding-top: 8px;
     margin: 0;
     margin-top: 23px;
   }
@@ -2930,10 +2972,20 @@ html {
   .section-six .container .inner-wrap .inner-title p {
     font-size: 22px;
     font-weight: 600;
-    padding-top: 23px;
+    padding-top: 18px;
     margin: 0;
-    margin-top: 23px;
+    margin-top: 14px;
   }
+
+  #job-description button {
+    padding: 8px 14px;
+    top: 0px;
+    right: -2px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0px;
+}
 
   .contact form {
     padding: 0 2px;
