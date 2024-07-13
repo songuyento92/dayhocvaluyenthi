@@ -133,6 +133,66 @@ document.querySelectorAll('.show-description').forEach(button => {
           <button id="close-description">Đóng</button>
         `;
         break;
+      case 'math':
+        description = `
+          <h2>Học phí môn học</h2>
+          <p>• Cấp 2 môn Toán: 700.000/tháng</p>
+          <p>• Cấp 3 môn Toán: 750.000/tháng</p>
+          <h2>Thời lượng buổi học</h2>
+          <p>• Số giờ học: 1,5h/buổi</p>
+          <p>• Số buổi/tuần: 1 tuần/3 buổi</p>
+          <h2>Ưu đãi khi đăng kí 2 môn</h2>
+          <p>• Khi đăng ký 2 môn sẽ được tặng 1 môn (chọn miễn phí 1)</p>
+          <p>• Cấp 2: 1.400.000/tháng</p>
+          <p>• Cấp 3: 1.500.000/tháng</p>
+          <button id="close-description">Đóng</button>
+        `;
+        break;
+      case 'van':
+        description = `
+          <h2>Học phí môn học</h2>
+          <p>• Cấp 2 môn Văn: 500.000/tháng</p>
+          <p>• Cấp 3 môn Văn: 550.000/tháng</p>
+          <h2>Thời lượng buổi học</h2>
+          <p>• Số giờ học: 1,5h/buổi</p>
+          <p>• Số buổi/tuần: 1 tuần/2 buổi</p>
+          <h2>Ưu đãi khi đăng kí 2 môn</h2>
+          <p>• Khi đăng ký 2 môn sẽ được tặng 1 môn (chọn miễn phí 1)</p>
+          <p>• Cấp 2: 1.400.000/tháng</p>
+          <p>• Cấp 3: 1.500.000/tháng</p>
+          <button id="close-description">Đóng</button>
+        `;
+        break;
+      case 'anh':
+        description = `
+          <h2>Học phí môn học</h2>
+          <p>• Cấp 2 môn Anh: 700.000/tháng</p>
+          <p>• Cấp 3 môn Anh: 750.000/tháng</p>
+          <h2>Thời lượng buổi học</h2>
+          <p>• Số giờ học: 1,5h/buổi</p>
+          <p>• Số buổi/tuần: 1 tuần/3 buổi</p>
+          <h2>Ưu đãi khi đăng kí 2 môn</h2>
+          <p>• Khi đăng ký 2 môn sẽ được tặng 1 môn (chọn miễn phí 1)</p>
+          <p>• Cấp 2: 1.400.000/tháng</p>
+          <p>• Cấp 3: 1.500.000/tháng</p>
+          <button id="close-description">Đóng</button>
+        `;
+        break;
+      case 'ly':
+        description = `
+          <h2>Học phí môn học</h2>
+          <p>• Cấp 2 môn Lý - Hóa -Sinh: 500.000/tháng</p>
+          <p>• Cấp 3 môn Lý - Hóa -Sinh: 550.000/tháng</p>
+          <h2>Thời lượng buổi học</h2>
+          <p>• Số giờ học: 1,5h/buổi</p>
+          <p>• Số buổi/tuần: 1 tuần/2 buổi</p>
+          <h2>Ưu đãi khi đăng kí 2 môn</h2>
+          <p>• Khi đăng ký 2 môn sẽ được tặng 1 môn (chọn miễn phí 1)</p>
+          <p>• Cấp 2: 1.400.000/tháng</p>
+          <p>• Cấp 3: 1.500.000/tháng</p>
+          <button id="close-description">Đóng</button>
+        `;
+        break;
     }
 
     jobDescription.innerHTML = description;
